@@ -1,6 +1,6 @@
 # SomBERTa: Somali-Specific Language Model
 
-This repository contains the official release of the model **"SomBERTa"** and its accompanying resources such as pre-training Somali corpus and fine-tuning datasets introduced in the paper titled [**"Detection of Somali-written Fake News and Toxic Messages on the Social Media Using Transformer-based Language Models"**](https://arxiv.org/abs/2503.18117) published in *Findings of the Association for Computational Linguistics: ACL 2025*. It contains two folders: data and code respectively housing the used pre-training and fine-tuning datasets, and their corresponding implementations.
+This repository contains the official release of the model [**"SomBERTa"**](https://huggingface.co/shuakshay/SomBERTa) and its accompanying resources such as pre-training Somali corpus and fine-tuning datasets introduced in the paper titled [**"Detection of Somali-written Fake News and Toxic Messages on the Social Media Using Transformer-based Language Models"**](https://arxiv.org/abs/2503.18117) published in *Findings of the Association for Computational Linguistics: ACL 2025*. It contains two folders: data and code respectively housing the used pre-training and fine-tuning datasets, and their corresponding implementations.
 
 Please note that the raw social media fake news and toxicity datasets are not included in the resource for privacy and ethical reasons. If you require these specific datasets for relevant Somali NLP research, please contact us at sltg@just.edu.so with a brief explanation of why you need it and how you would use it, then we will send you the relevant application forms.
 
@@ -21,7 +21,6 @@ $ conda activate ./env # or source activate ./env (for older versions of anacond
 $ bash setup.sh 
 ```
 * Use the newly created environment for running the scripts in this repository.
-
 
 ## Citation
 If you use any of the datasets, model or code modules, please cite the following paper:
